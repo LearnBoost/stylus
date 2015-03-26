@@ -3,4 +3,4 @@
 	url = https://github.com/kizu/tenkan.git
 [submodule "docs"]
 	path = docs
-	url = https://github.com/Automattic/stylus.git
+	url = https://github.com/stylus/stylus.git
