@@ -9,7 +9,7 @@
 
   "description": "Engine for running Stylus GitHub pages.",
   "homepage": "http://learnboost.github.io/stylus/",
-  "bugs": { "url": "https://github.com/learnboost/stylus/issues?labels=s%3A+Docs" },
+  "bugs": { "url": "https://github.com/stylus/stylus/issues?labels=s%3A+Docs" },
 
   "dependencies": {
     "stylus": "0.42.x",

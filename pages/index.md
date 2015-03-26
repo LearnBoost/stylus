@@ -143,7 +143,7 @@ Now, type in your terminal:
 
 If you want an expressive css language for nodejs with these
 features or the features listed below, head over to 
-[GitHub](http://github.com/learnboost/stylus)
+[GitHub](http://github.com/stylus/stylus)
 for more information.
 
 <div class="features" markdown="1">
