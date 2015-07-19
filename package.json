@@ -12,9 +12,9 @@
   "bugs": { "url": "https://github.com/stylus/stylus/issues?labels=s%3A+Docs" },
 
   "dependencies": {
-    "stylus": "0.42.x",
-    "stylobuild": "0.4.x",
-    "if-ie.styl": "0.2.x"
+    "stylus": "~0.52.0",
+    "stylobuild": "~0.6.0",
+    "if-ie.styl": "~0.6.0"
   },
 
   "engines": { "node": ">=0.6" }
