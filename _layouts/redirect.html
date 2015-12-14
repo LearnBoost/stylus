@@ -1,6 +1,6 @@
 <!DOCTYPE html>{% if page.target %}{% assign target = page.target %}{% else %}{% assign target = page.permalink %}{% endif %}
 <title>This page is moved</title>{% assign stylus_site = 'http://stylus-lang.com' %}
-<meta http-equiv="refresh" content="0;URL='{{ stylus_site }}{{ target }}'" />
-<!-- Yandex.Metrika counter --><script src="https://mc.yandex.ru/metrika/watch.js" type="text/javascript"></script><script type="text/javascript">try { var yaCounter23802394 = new Ya.Metrika({ id:23802394, clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true });} catch(e) { }</script><noscript><div><img src="https://mc.yandex.ru/watch/23802394" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
-<script>window.location.href = "{{ stylus_site }}{{ target }}"</script>
+<meta http-equiv="refresh" content="5;URL='{{ stylus_site }}{{ target }}'" />
+<!-- Yandex.Metrika counter --><script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter23802394 = new Ya.Metrika({ id:23802394, clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="https://mc.yandex.ru/watch/23802394" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+<script>window.location.href = "{{ stylus_site }}{{ target }}" + (window.location.hash || "")</script>
 <h1><a href="{{ stylus_site }}{{ target }}">This page has moved to {{ stylus_site }}{{ target }}</a></h1>
