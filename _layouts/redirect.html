@@ -1,0 +1,5 @@
+<!DOCTYPE html>{% if page.target %}{% assign target = page.target %}{% else %}{% assign target = page.permalink %}{% endif %}
+<title>This page is moved</title>{% assign stylus_site = 'http://stylus-lang.com' %}
+<meta http-equiv="refresh" content="0;URL='{{ stylus_site }}{{ target }}'" />
+<script>window.location.href = "{{ stylus_site }}{{ target }}"</script>
+<h1><a href="{{ stylus_site }}{{ target }}">This page has moved to {{ stylus_site }}{{ target }}</a></h1>
