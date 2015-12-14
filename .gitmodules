@@ -1,6 +1,0 @@
-[submodule "_includes/tenkan"]
-	path = _includes/tenkan
-	url = https://github.com/kizu/tenkan.git
-[submodule "docs"]
-	path = docs
-	url = https://github.com/stylus/stylus.git
